@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.page {
+    padding: 1rem;
+    color: #184346;
+    font-size:larger;
+}
+
+.dropdown {
+    position: relative;
+    margin-left: auto;
+    padding: 1rem;
+    width: 120px;
+}
+
+.dropdown-list {
+    display: none; 
+    position: absolute;
+    top: 1.2rem; 
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    padding: 0.5rem;
+    min-width: 70px;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block; 
+}
+
+.dropdown-list li {
+    list-style: none;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.dropdown-list li:hover {
+    background-color: rgb(175, 207, 214); 
+}

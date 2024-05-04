@@ -1,0 +1,23 @@
+.container {
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    color :#184346;
+    font-size: larger;
+}
+.description {
+    width: 40%;
+    font-weight: lighter;
+}
